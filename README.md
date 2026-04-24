@@ -3,6 +3,19 @@
 > Full-stack personal finance web app. Track income and expenses, visualise spending patterns, and get automated savings advice. Built with **Node.js + Express** on the backend and **React 18 + Redux Toolkit** on the frontend.
 
 ---
+## UI
+
+## Register
+![alt text](image-3.png)
+
+## Login
+![alt text](image-2.png)
+
+## Dashboard
+![alt text](image.png)
+
+## Transactions
+![alt text](image-1.png)
 
 ## Quick Start (3 commands)
 
