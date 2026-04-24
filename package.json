@@ -1,0 +1,23 @@
+{
+  "name": "finedge-monorepo",
+  "version": "1.0.0",
+  "description": "FinEdge — Personal Finance Tracker (Fullstack Monorepo)",
+  "private": true,
+  "scripts": {
+    "install:all":   "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend":   "cd backend && npm run dev",
+    "dev:frontend":  "cd frontend && npm run dev",
+    "build":         "cd frontend && npm run build",
+    "start":         "cd backend && NODE_ENV=production npm start",
+    "test":          "cd backend && npm test",
+    "setup":         "npm run install:all && npm run build",
+    "postinstall":   "echo \"\n✅  Dependencies installed. Run 'npm run setup' to install all & build, or see README for dev mode.\""
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm":  ">=9.0.0"
+  },
+  "keywords": ["fintech", "finance-tracker", "nodejs", "react", "express", "fullstack"],
+  "author": "Gaurav Sinha <@TheDevWhoShips>",
+  "license": "ISC"
+}
